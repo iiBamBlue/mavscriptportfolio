@@ -17,7 +17,7 @@
   font-size: 24px;
   font-weight: bold;
   color: #2563eb;
-  font-family: "Montserrat", "Poppins", sans-serif;
+  font-family: 'Montserrat', 'Poppins', sans-serif;
 }
 
 .navbar-links {
@@ -34,7 +34,9 @@
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 6px;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .navbar-item a:hover {

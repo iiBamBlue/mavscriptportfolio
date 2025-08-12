@@ -31,5 +31,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Prettier
+.prettier-cache/
+.prettierignore
+
 # Tailwind JIT cache
 .tailwind-cache/

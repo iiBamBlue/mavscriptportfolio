@@ -1,14 +1,12 @@
 /** @format */
-import React from "react";
-import "./styles/notfound.css";
+import React from 'react';
+import './styles/notfound.css';
 
 function NotFound() {
   return (
     <section className="notfound-section">
       <h1 className="notfound-title">404 - Page Not Found</h1>
-      <p className="notfound-description">
-        Sorry, the page you are looking for does not exist.
-      </p>
+      <p className="notfound-description">Sorry, the page you are looking for does not exist.</p>
       <a className="notfound-link" href="/">
         Return Home
       </a>

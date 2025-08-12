@@ -17,20 +17,20 @@
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #2dd4bf;
-  font-family: "Montserrat", "Poppins", sans-serif;
+  font-family: 'Montserrat', 'Poppins', sans-serif;
 }
 
 .about-description {
   line-height: 1.7;
   margin-bottom: 1rem;
   color: #e5e7eb;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
 .about-quote {
   font-style: italic;
   color: #94a3b8;
-  font-family: "Roboto", "Open Sans", sans-serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

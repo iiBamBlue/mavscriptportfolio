@@ -15,7 +15,7 @@
   font-weight: bold;
   margin-bottom: 24px;
   color: #2dd4bf;
-  font-family: "Montserrat", "Poppins", sans-serif;
+  font-family: 'Montserrat', 'Poppins', sans-serif;
 }
 
 .skills-list {
@@ -41,7 +41,9 @@
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  transition: box-shadow 0.2s, background 0.2s;
+  transition:
+    box-shadow 0.2s,
+    background 0.2s;
 }
 
 .skills-item:hover {

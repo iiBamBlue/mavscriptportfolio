@@ -1,7 +1,7 @@
 /** @format */
 
-import React from "react";
-import "./src/pages/styles/contacts.css";
+import React from 'react';
+import './src/pages/styles/contacts.css';
 
 function Contacts() {
   return (
@@ -12,11 +12,7 @@ function Contacts() {
       </p>
       <form className="contacts-form">
         <input className="contacts-input" type="text" placeholder="Your Name" />
-        <input
-          className="contacts-input"
-          type="email"
-          placeholder="Your Email"
-        />
+        <input className="contacts-input" type="email" placeholder="Your Email" />
         <textarea className="contacts-textarea" placeholder="Your Message" />
         <button className="contacts-button" type="submit">
           Send
