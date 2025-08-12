@@ -1,38 +1,18 @@
 /** @format */
+import React from "react";
 import "./styles/notfound.css";
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 function NotFound() {
   return (
-    <motion.section
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900 text-center px-6">
-      <motion.h1
-        className="text-6xl font-bold text-blue-600 dark:text-teal-400 mb-4"
-        animate={{ y: [0, -10, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}>
-        404
-      </motion.h1>
-
-      <motion.p
-        className="text-xl text-gray-700 dark:text-gray-300 mb-6"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}>
-        Oops! The page you're looking for doesn't exist.
-      </motion.p>
-
-      <motion.div whileHover={{ scale: 1.1 }}>
-        <Link
-          to="/"
-          className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 dark:bg-teal-500 dark:hover:bg-teal-600">
-          Go Home
-        </Link>
-      </motion.div>
-    </motion.section>
+    <section className="notfound-section">
+      <h1 className="notfound-title">404 - Page Not Found</h1>
+      <p className="notfound-description">
+        Sorry, the page you are looking for does not exist.
+      </p>
+      <a className="notfound-link" href="/">
+        Return Home
+      </a>
+    </section>
   );
 }
 

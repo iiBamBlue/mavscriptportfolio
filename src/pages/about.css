@@ -1,0 +1,49 @@
+/**
+ * Styles for About page
+ *
+ * @format
+ */
+
+.about-section {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  color: #e5e7eb;
+  background: transparent;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #2dd4bf;
+  font-family: "Montserrat", "Poppins", sans-serif;
+}
+
+.about-description {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #e5e7eb;
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+.about-quote {
+  font-style: italic;
+  color: #94a3b8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  .about-section {
+    color: #e5e7eb;
+  }
+  .about-title {
+    color: #2dd4bf;
+  }
+  .about-description {
+    color: #e5e7eb;
+  }
+  .about-quote {
+    color: #94a3b8;
+  }
+}

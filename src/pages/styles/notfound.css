@@ -3,3 +3,41 @@
  *
  * @format
  */
+
+.notfound-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 64px 24px;
+}
+
+.notfound-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ef4444;
+  margin-bottom: 24px;
+  font-family: "Montserrat", "Poppins", sans-serif;
+}
+
+.notfound-description {
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 32px;
+}
+
+.notfound-link {
+  font-size: 16px;
+  color: #2563eb;
+  text-decoration: underline;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #e0e7ff;
+  transition: background 0.2s, color 0.2s;
+}
+
+.notfound-link:hover {
+  background: #2563eb;
+  color: #fff;
+}
