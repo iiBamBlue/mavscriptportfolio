@@ -48,3 +48,14 @@ Thumbs.db
 
 # Tailwind JIT cache
 .tailwind-cache/
+
+# Prevent empty duplicate files (common scaffolding artifacts)
+# Empty component files in wrong locations
+src/components/
+!src/components/.gitkeep
+
+# Temporary empty files that might be created by IDEs or scaffolding tools
+**/*.jsx.tmp
+**/*.css.tmp
+**/temp_*
+**/.DS_Store

@@ -10,7 +10,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      '@components': path.resolve(__dirname, './src/components'),
+      '@components': path.resolve(__dirname, './src/pages/components'), // Fixed to match actual structure
       '@pages': path.resolve(__dirname, './src/pages'),
       '@validation': path.resolve(__dirname, './src/validation'),
     },
