@@ -1,5 +1,5 @@
 /** @format */
-import './styles/contact.css';
+import './styles/contacts.css';
 import { motion } from 'framer-motion';
 
 function Contact() {

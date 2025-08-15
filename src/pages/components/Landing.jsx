@@ -1,5 +1,4 @@
 /** @format */
-import '../styles/landing.css';
 import { useAmbientAudio } from './AmbientAudioProvider';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';

@@ -1,5 +1,5 @@
 /** @format */
-import './styles/home.css';
+import './home.css';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 

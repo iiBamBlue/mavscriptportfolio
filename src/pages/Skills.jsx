@@ -1,5 +1,5 @@
 /** @format */
-import './styles/skills.css';
+import './skills.css';
 import { motion } from 'framer-motion';
 
 const SkillsList = [

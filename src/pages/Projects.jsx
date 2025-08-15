@@ -1,5 +1,5 @@
 /** @format */
-import './styles/projects.css';
+import './projects.css';
 import { motion } from 'framer-motion';
 
 const projects = [
