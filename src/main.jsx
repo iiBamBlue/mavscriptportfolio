@@ -4,13 +4,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import './index.css';
-import './styles.css';
+import { AmbientAudioProvider } from './pages/components/AmbientAudioProvider';
+import '../index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
+const container = document.getElementById('root');
+if (container) {
+  const root = ReactDOM.createRoot(container); // For React 18+
+  root.render(
+    <React.StrictMode>
+      <BrowserRouter>
+        <AmbientAudioProvider>
+          <App />
+        </AmbientAudioProvider>
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+}

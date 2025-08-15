@@ -1,12 +1,12 @@
 /** @format */
 
 import { Routes, Route } from 'react-router-dom';
-import Landing from './pages/Landing';
+import Landing from './pages/components/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import WhoIsBlue from './pages/WhoIsBlue';
+import WhoIsBlue from './pages/components/WhoIsBlue';
 import NotFound from './pages/NotFound';
 import Contact from './pages/Contact';
 

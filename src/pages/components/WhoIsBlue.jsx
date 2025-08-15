@@ -1,6 +1,6 @@
 /** @format */
 import React from 'react';
-import './styles/whoisblue.css';
+import './whoisblue.css';
 
 function WhoIsBlue() {
   return (

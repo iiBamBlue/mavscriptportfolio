@@ -1,5 +1,5 @@
 /** @format */
-import './styles/about.css';
+import './about.css';
 import { motion } from 'framer-motion';
 
 function About() {

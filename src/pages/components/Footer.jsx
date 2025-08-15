@@ -1,13 +1,12 @@
 /** @format */
-import React from 'react';
-import './styles/footer.css';
+import './footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <span className="footer-text">
-          &copy; {new Date().getFullYear()} MavScript. All rights reserved.
+          &copy; {new Date().getFullYear()} MavScript.blu All rights reserved.
         </span>
       </div>
     </footer>

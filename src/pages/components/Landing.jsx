@@ -1,21 +1,10 @@
 /** @format */
-import './styles/landing.css';
-import { useState, useRef, useEffect } from 'react';
+import { useAmbientAudio } from './AmbientAudioProvider';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 function Landing() {
-  const [playing, setPlaying] = useState(false);
-  const audioRef = useRef(null);
-
-  // Play or pause the audio based on the playing state
-  useEffect(() => {
-    if (playing) {
-      audioRef.current.play();
-    } else {
-      audioRef.current.pause();
-    }
-  }, [playing]);
+  const { playing, toggleAudio } = useAmbientAudio();
 
   return (
     <motion.section
@@ -36,16 +25,9 @@ function Landing() {
         Enter Site →
       </Link>
 
-      <button
-        onClick={() => setPlaying(!playing)}
-        className="text-sm text-teal-400 hover:text-teal-300 underline"
-      >
+      <button onClick={toggleAudio} className="text-sm text-teal-400 hover:text-teal-300 underline">
         {playing ? '🔊 Pause Ambient' : '🎧 Play Ambient'}
       </button>
-
-      <audio ref={audioRef} loop>
-        <source src="/ambient.mp3" type="audio/mpeg" />
-      </audio>
     </motion.section>
   );
 }
