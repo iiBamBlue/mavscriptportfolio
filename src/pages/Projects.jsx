@@ -36,15 +36,12 @@ function Projects() {
     >
       <div className="projects-container">
         <h3 className="projects-title">Projects</h3>
-
         <div className="projects-grid">
           {projects.map((project, index) => (
             <motion.div key={index} whileHover={{ scale: 1.02 }} className="project-card">
               <h4 className="project-title">{project.title}</h4>
-
               <p className="project-description">{project.description}</p>
               <p className="project-tools">Tools: {project.tools}</p>
-
               <a
                 href={project.link}
                 target="_blank"
