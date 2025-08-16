@@ -97,7 +97,7 @@
 
 // Create a new React component for a blog post card
 // Animate a button with Framer Motion on hover
-// Add a toggle for switching between two Tailwind themes
+// Add a toggle for switching between two CSS3 themes
 // Build a REST API endpoint in Express for contact form
 // Create a MongoDB model for storing visitor messages
 // Implement form validation and error handling

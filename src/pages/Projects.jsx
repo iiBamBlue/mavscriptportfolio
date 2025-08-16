@@ -21,7 +21,7 @@ const projects = [
     title: 'MavScript.Blu Portfolio Engine',
     description:
       'React-based portfolio infused with ambient design, dark mode, and poetic UI transitions.',
-    tools: 'React, Tailwind CSS, Framer Motion',
+    tools: 'React, CSS3, Framer Motion',
     link: 'https://github.com/yourrepo',
   },
 ];

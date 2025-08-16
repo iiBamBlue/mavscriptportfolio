@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const SkillsList = [
   '⚙️ PowerShell scripting & system automation',
   '🌐 HTML, CSS, JavaScript, React, Express, MongoDB',
-  '🎨 UI/UX design with Figma & Tailwind',
+  '🎨 UI/UX design with Figma & CSS3',
   '📊 Infographic & visual storytelling',
   '🧠 Servant leadership & team empowerment',
 ];
