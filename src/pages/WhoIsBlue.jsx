@@ -1,6 +1,7 @@
 /** @format */
 import React from 'react';
 import './styles/whoisblue.css';
+import { motion } from 'framer-motion';
 
 function WhoIsBlue() {
   return (

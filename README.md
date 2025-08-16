@@ -1,8 +1,8 @@
 <!-- @format -->
 
-### MavScript.Blu 🌙
+# MavScript.Blu 🌙
 
-A personal portfolio built with React, Tailwind CSS, and Framer Motion—infused with ambient design, poetic UI, and a moonlit-coastal vibe.
+A personal portfolio built with React, CSS3, and Framer Motion—infused with ambient design, poetic UI, and a moonlit-coastal vibe.
 
 ---
 
@@ -10,82 +10,126 @@ A personal portfolio built with React, Tailwind CSS, and Framer Motion—infused
 
 # 📁 File Structure & Descriptions
 
-```src/
-├── App.jsx
-├── main.jsx
-├── index.css
-├── pages/
-│ ├── Landing.jsx     • → ambient music + entry
-│ ├── Home.jsx        • → poetic welcome
-│ ├── About.jsx       • → origin story: manufacturing → Software Engineer
-│ ├── Projects.jsx    • → Showcase technical work // syntax with soul
-│ ├── Skills.jsx      • → Highlight tools, languages, and platforms you use // coastal clarity
-│ ├── Contact.jsx     • → open windows (email, LinkedIn, GitHub)
-│ ├── WhoIsBlue.jsx   • → ambient character bio
-│ └── NotFound.jsx    • → animated 404
+```
+src/
+├── App.jsx              • → main app component with routing
+├── main.jsx             • → React app entry point with providers
+├── index.css            • → global styles and app theming
+├── styles.css           • → additional utility styles
 ├── components/
-│ ├── Navbar.jsx      • → dark mode + routing
-│ └── Footer.jsx      • → soft sign-off
+│   ├── AmbientAudioProvider.jsx  • → global audio context
+│   ├── NavBar.jsx       • → navigation with dark mode toggle
+│   ├── Footer.jsx       • → soft sign-off footer
+│   └── styles/
+│       ├── navbar.css   • → navbar styling
+│       └── footer.css   • → footer styling
+├── pages/
+│   ├── Landing.jsx      • → ambient music + entry portal
+│   ├── Home.jsx         • → poetic welcome page
+│   ├── About.jsx        • → origin story: manufacturing → Software Engineer
+│   ├── Projects.jsx     • → showcase technical work // syntax with soul
+│   ├── Skills.jsx       • → highlight tools, languages, platforms // coastal clarity
+│   ├── Contact.jsx      • → open windows (email, LinkedIn, GitHub)
+│   ├── WhoIsBlue.jsx    • → ambient character bio
+│   ├── NotFound.jsx     • → animated 404 page
+│   └── styles/
+│       ├── landing.css  • → landing page gradient styling
+│       ├── home.css     • → home page styling
+│       ├── about.css    • → about page styling
+│       ├── projects.css • → projects showcase styling
+│       ├── skills.css   • → skills display styling
+│       ├── contact.css  • → contact form styling
+│       ├── whoisblue.css• → character bio styling
+│       └── notfound.css • → 404 page styling
+├── validation/
+│   ├── index.js         • → form validation logic
+│   └── schemas.js       • → validation schemas
+└── Routes.jsx           • → route definitions
 ```
 
 ---
 
 ## Features
 
-- 🌌 Dark mode toggle
-- 🎧 Ambient music on landing page
-- 🧭 React Router navigation
-- ✨ Framer Motion animations
-- 📁 Modular component structure
+- 🌌 Dark mode toggle with CSS3 theming
+- 🎧 Global ambient audio system with React context
+- 🧭 React Router navigation with animated transitions
+- ✨ Framer Motion page and element animations
+- 📁 Modular component and styling architecture
+- 🎨 Custom CSS3 styling (no framework dependencies)
+- 🌊 Ambient gradient themes and coastal color palette
 
 ## Tech Stack
 
-- React
-- Tailwind CSS
-- Framer Motion
-- React Router
-- GitHub Pages (for deployment)
+- **Frontend:** React 18+ with Vite build system
+- **Styling:** CSS3 with modular component styles
+- **Animations:** Framer Motion for smooth transitions
+- **Routing:** React Router for SPA navigation
+- **Audio:** Native HTML5 audio with React context
+- **Deployment:** GitHub Pages compatible
 
----
-
-## Setup
+## Setup & Development
 
 ```bash
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
 ## Deploy to GitHub Pages
 
-1. Build the project:
+1. **Build the project:**
 
    ```bash
    npm run build
    ```
 
-2. Install the `gh-pages` package:
+2. **Install gh-pages:**
 
    ```bash
    npm install --save-dev gh-pages
    ```
 
-3. Add the following scripts to your `package.json`:
+3. **Add deploy scripts to package.json:**
 
    ```json
-   "scripts": {
-     "predeploy": "npm run build",
+   {
+     "scripts": {
+       "predeploy": "npm run build",
        "deploy": "gh-pages -d dist"
-     // ...other scripts...
+     }
    }
    ```
 
-4. Deploy the project:
-
+4. **Deploy:**
    ```bash
    npm run deploy
    ```
 
+## Architecture Notes
+
+- **CSS3 Only:** No Tailwind CSS or framework dependencies
+- **Component Separation:** Pages in `src/pages/`, shared components in `src/components/`
+- **Style Organization:** Modular CSS files alongside components
+- **Audio System:** Global ambient audio via React context provider
+- **Routing:** Single BrowserRouter in `main.jsx`, Routes in `App.jsx`
+- **Dark Mode:** CSS class-based theming with React state management
+
 ---
+
+## 🌊 Project Vision
+
+This portfolio isn't just a showcase—it's a sanctuary. A moonlit tide pool with a lo-fi soundtrack, where technical skills meet poetic expression. Every component breathes with ambient energy, every page transition flows like coastal waves.
+
+**Built with intention. Crafted with soul. Launched like a message in a bottle across the web.** 🌙
 
 ```javascript
 /*

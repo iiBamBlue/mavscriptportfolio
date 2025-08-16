@@ -19,7 +19,7 @@ export default function AppRoutes() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/whoisblue" element={<WhoIsBlue />} />
+      <Route path="/who-is-blue" element={<WhoIsBlue />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

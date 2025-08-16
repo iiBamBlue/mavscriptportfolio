@@ -1,5 +1,6 @@
 /** @format */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/navbar.css';
 
 function NavBar() {
@@ -8,19 +9,19 @@ function NavBar() {
       <div className="navbar-logo">MavScript</div>
       <ul className="navbar-links">
         <li className="navbar-item">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="navbar-item">
-          <a href="/projects">Projects</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className="navbar-item">
-          <a href="/skills">Skills</a>
+          <Link to="/skills">Skills</Link>
         </li>
         <li className="navbar-item">
-          <a href="/whoisblue">Who is Blue?</a>
+          <Link to="/who-is-blue">Who is Blue?</Link>
         </li>
         <li className="navbar-item">
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
