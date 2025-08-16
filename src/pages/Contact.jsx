@@ -1,6 +1,7 @@
 /** @format */
 import './styles/contact.css';
 import { motion } from 'framer-motion';
+import { config } from '../config/env.js';
 
 function Contact() {
   return (
@@ -16,17 +17,17 @@ function Contact() {
       </p>
       <ul className="contact-links">
         <li className="contact-item">
-          <a href="mailto:darienmaverick@outlook.com" className="contact-link">
-            📧 darienmaverick@outlook.com
+          <a href={`mailto:${config.contact.email}`} className="contact-link">
+            📧 {config.contact.email}
           </a>
         </li>
         <li className="contact-item">
-          <a href="https://linkedin.com/in/darien-blue" className="contact-link">
+          <a href={config.contact.linkedinUrl} className="contact-link">
             💼 LinkedIn
           </a>
         </li>
         <li className="contact-item">
-          <a href="https://github.com/iiBamBlue" className="contact-link">
+          <a href={config.contact.githubUrl} className="contact-link">
             🧠 GitHub
           </a>
         </li>

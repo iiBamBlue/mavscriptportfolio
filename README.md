@@ -8,7 +8,7 @@ A personal portfolio built with React, CSS3, and Framer Motion—infused with am
 
 ## 🧩 Full Codebase
 
-# 📁 File Structure & Descriptions
+## 📁 File Structure & Descriptions
 
 ```
 src/
