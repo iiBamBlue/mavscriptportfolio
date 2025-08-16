@@ -6,7 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import { AmbientAudioProvider } from './components/AmbientAudioProvider';
 import './index.css';
-import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

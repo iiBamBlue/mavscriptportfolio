@@ -3,3 +3,69 @@
  *
  * @format
  */
+
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f172a 0%, #134e4a 50%, #374151 100%);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.landing-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #5eead4;
+}
+
+.landing-subtitle {
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.landing-button {
+  background-color: #14b8a6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.landing-button:hover {
+  background-color: #0d9488;
+}
+
+.ambient-toggle {
+  font-size: 0.875rem;
+  color: #5eead4;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.ambient-toggle:hover {
+  color: #99f6e4;
+}
+
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2.5rem;
+  }
+
+  .landing-subtitle {
+    font-size: 1rem;
+  }
+}
