@@ -49,3 +49,7 @@ Thumbs.db
 
 # Tailwind JIT cache
 .tailwind-cache/
+
+# Ignore specific files
+CHANGELOG.md
+copilot-instructions.md
